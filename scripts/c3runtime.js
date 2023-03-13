@@ -4030,6 +4030,7 @@ self.C3_JsPropNameTable = [
 	{Sprite4: 0},
 	{yanlisAnime: 0},
 	{Sprite6: 0},
+	{soruDz: 0},
 	{Sine: 0},
 	{aile: 0},
 	{tiklamaSes: 0},
@@ -4040,6 +4041,7 @@ self.C3_JsPropNameTable = [
 	{tiklama: 0},
 	{dogru_sayi: 0},
 	{yanlis_sayi: 0},
+	{rnd_sayi2: 0},
 	{tiklamaSes2: 0},
 	{tiklamaMuzik2: 0},
 	{tiklamaSes4: 0},
@@ -4179,6 +4181,7 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
 		},
+		() => "sine",
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
